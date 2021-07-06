@@ -17,8 +17,8 @@ export default [
   {
     input: "src/index.js",
     output: {
-      name: "Bezier",
-      file: "dist/bundle.iife.js",
+      name: "uniformBezier",
+      file: "dist/uniform-bezier.iife.js",
       format: "umd", // immediately-invoked function expression — suitable for <script> tags
       sourcemap: true,
     },
@@ -45,7 +45,7 @@ export default [
   {
     input: "src/index.js",
     output: {
-      file: "dist/bundle.esm.js",
+      file: "dist/uniform-bezier.esm.js",
       format: "esm", // immediately-invoked function expression — suitable for <script> tags
       sourcemap: true,
     },
